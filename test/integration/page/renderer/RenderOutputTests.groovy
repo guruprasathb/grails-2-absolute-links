@@ -29,6 +29,11 @@ class RenderOutputTests {
             Thank you for your registration.
         </p>
 
+        <p>
+            To use the application can you directly go to the
+            <a href="http://localhost:8080/index">home page</a>.
+        </p>
+
         </body>
         </html>
         '''

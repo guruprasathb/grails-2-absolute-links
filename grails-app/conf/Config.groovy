@@ -93,6 +93,9 @@ environments {
     development {
         grails.logging.jul.usebridge = true
     }
+    test {
+        grails.serverURL = "http://localhost:8080"
+    }
     production {
         grails.logging.jul.usebridge = false
         // TODO: grails.serverURL = "http://www.changeme.com"
